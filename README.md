@@ -55,7 +55,6 @@ This project use Travis CI to build the application.
 CI screenshot
 ![CI](./screenshots/travis-ci-1.png "screenshot 1")
 ![CI](./screenshots/travis-ci-2.png "screenshot 2")
-![CI](./screenshots/travis-ci-4.png "screenshot 4")
 ***
 
 ### App screenshot
