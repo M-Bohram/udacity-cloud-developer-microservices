@@ -1,0 +1,18 @@
+version: "3"
+services:
+  reverseproxy:
+    build:
+      context: .
+    image: mbohram/udagram-reverseproxy 
+  backend_user:
+    build:
+      context: ../../udacity-c3-restapi-user
+    image: mbohram/udagram-backend-user
+  backend_feed:
+    build:
+      context: ../../udacity-c3-restapi-feed  
+    image: mbohram/udagram-backend-feed
+  frontend:
+    build:
+      context: ../../udacity-c3-frontend  
+    image: mbohram/udagram-frontend
