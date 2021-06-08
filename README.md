@@ -1,7 +1,5 @@
 # Udagram Cloud Developper Nanodegre Project #3
 
-test running travis CI
-
 This project is the submission of udacity cloud developer nanodegree
 
 ## About the App
